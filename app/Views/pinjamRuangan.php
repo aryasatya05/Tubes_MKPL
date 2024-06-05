@@ -48,7 +48,7 @@ $user_status = session()->get('user_status');
       <div class="container-fluid container-xl d-flex align-items-center justify-content-between fixed-top py-3">
 
         <a href="<?= base_url("/"); ?>" class="logo d-flex align-items-center">
-          <h1 id="navTitle">Monitoring Kelas<span class="dotlogo-primary" id="spanNavTitle">.</span>GKU</h1>
+          <h1 id="navTitle">Melihat Kelas<span class="dotlogo-primary" id="spanNavTitle">.</span>GKU</h1>
         </a>
 
         <i id="hamburger-toggle" class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
