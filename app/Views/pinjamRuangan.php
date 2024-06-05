@@ -51,19 +51,19 @@ $user_status = session()->get('user_status');
           <h1 id="navTitle">Monitoring Beberapa Kelas<span class="dotlogo-primary" id="spanNavTitle">.</span>GKU</h1>
         </a>
 
-        <i id="hamburger-toggle" class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <!-- <i id="hamburger-toggle" class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-        <nav id="navbar" class="navbar">
+        <nav id="navbar" class="navbar"> -->
           <ul>
             <?php
             if ($user_id == null) {
             } else {
-            ?>
-              <li><a href="<?= base_url("/"); ?>" id="navMenu-1">Home</a></li>
-              <li><a href="<?= base_url("daftarRuangan"); ?>" id="navMenu-3" class="active">Daftar Ruangan</a></li>
-              <li><a href="<?= base_url("notifikasi"); ?>" id="navMenu-4">Notifikasi</a></li>
-              <li><a href="<?= base_url("profile"); ?>" id="navMenu-5">profile</a></li>
-            <?php
+            // ?>
+            //   <li><a href="<?= base_url("/"); ?>" id="navMenu-1">Home</a></li>
+            //   <li><a href="<?= base_url("daftarRuangan"); ?>" id="navMenu-3" class="active">Daftar Ruangan</a></li>
+            //   <li><a href="<?= base_url("notifikasi"); ?>" id="navMenu-4">Notifikasi</a></li>
+            //   <li><a href="<?= base_url("profile"); ?>" id="navMenu-5">profile</a></li>
+            // <?php
             }
             ?>
             <!-- <li><a href="about.html" id="navMenu-2">About</a></li>
