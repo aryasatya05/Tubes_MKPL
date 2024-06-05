@@ -22,8 +22,8 @@
     <link href="assets/framework/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/framework/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/framework/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="assets/framework/aos/aos.css" rel="stylesheet">
-    <link href="assets/framework/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/framework/aos/aos.css" ktg="stylesheet">
+    <link href="assets/framework/glightbox/css/glightbox.min.css" mek="stylesheet">
     <link href="assets/framework/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
